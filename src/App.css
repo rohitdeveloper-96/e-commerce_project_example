@@ -1,0 +1,108 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.cartContainer {
+  width: 30%;
+  box-shadow: 0 0 5px #DDD;
+  margin-top: 10%;
+  margin-left: 20px;
+}
+
+.cartTitle {
+  font-size: 2.75rem;
+  text-align: center;
+}
+
+.priceTitle{
+  font-size: 1rem;
+  margin-left: 59px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.titleStyles{
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  margin-left: 59px;
+  margin-top: 20px;
+
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cartButtonStyles {
+  width: 22%;
+  height: 54px;
+  background-color: #e7e7e7;
+  border-color: #dadada;
+  border-radius: 5px;
+  color: #333333;
+  padding-top: 0.625rem;
+  padding-bottom: 0.6875rem;
+  font-size: 0.6875rem;
+  cursor: pointer;
+}
+
+.checkoutButtonStyles {
+  background-color: #008cba;
+  border-color: #0079a1;
+  color: white;
+  cursor: default;
+  opacity: 0.7;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-left:10px ;
+  cursor: pointer;
+}
+
+.Productscontainer{
+  width: 70%;
+  box-shadow: 0 0 5px #DDD; 
+  margin-top: 20px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
